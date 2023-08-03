@@ -12,14 +12,16 @@ export async function POST(req, res) {
 
         return NextResponse.json({
             message:"Message sent successfully!"
-        }, {
+        },{
             status: 200
         })
 
     }catch (e) {
         return NextResponse.json(
             { message: "Server error, please try again!" },
-            { status: 500 }
+            {
+                status: 500
+            }
         )
     }
 }
