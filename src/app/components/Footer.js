@@ -17,7 +17,7 @@ const Footer = () => {
                     <div className={footerStyles.top}>
                         <div className={footerStyles['logo-details']}>
                             {/*<i className={footerStyles.fab fa-slack]></i>*/}
-                            <span className={footerStyles.logo_name}>Thapa Technical</span>
+                            <span className={footerStyles.logo_name}>Shazverse</span>
                         </div>
                         <div className={footerStyles[`media-icons`]}>
                             <Link href="#"><i > <FaFacebookF/> </i></Link>
@@ -29,9 +29,9 @@ const Footer = () => {
                     </div>
                     <div className={footerStyles['link-boxes']}>
                         <ul className={footerStyles.box}>
-                            <li className={footerStyles.link_name}>Company</li>
+                            <li className={footerStyles.link_name}>Go to</li>
                             <li><a href="/">Home</a></li>
-                            <li><a href="#">Contact us</a></li>
+                            <li><a href="/contact">Contact us</a></li>
                             <li><a href="/about">About us</a></li>
                             <li><a href="/movie">Get started</a></li>
                         </ul>
@@ -60,11 +60,7 @@ const Footer = () => {
                 <div className={footerStyles['bottom-details']}>
                     <div className={footerStyles.bottom_text}>
                         <span className={footerStyles.copyright_text}> Copyright © 2023
-                            <Link href="/>"> Thapa Technical.</Link> All rights reserved </span>
-                        <span className={footerStyles.policy_terms}>
-                          <Link href="/">Privacy policy</Link>
-                          <Link href="/">Terms & condition</Link>
-                        </span>
+                            <Link href="/"> Shazverse </Link> All rights reserved </span>
                     </div>
                 </div>
             </footer>
