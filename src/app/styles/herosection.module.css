@@ -2,7 +2,7 @@
 
 .main_section{
     position: relative;
-    background: linear-gradient(-45deg, #a8e48a, #1eb6d9, #f2d3f7);
+    background: linear-gradient(-45deg, #a8e48a, #d94a1e, #f2d3f7);
     background-size: 400% 400%;
     /*animation: gradient-bg 20s ease infinite;*/
 }

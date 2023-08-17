@@ -1,11 +1,13 @@
 
 .section{
     width: 100%;
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background: radial-gradient(circle, rgb(197, 49, 177) 0%, rgb(199, 137, 45) 100%);
 }
 
 .movieSection{
-    background-color: #fff!important;
+    position: relative;
+    background: linear-gradient(-45deg, #cbe7bd, #e1bdb2, #d30a10);
+    background-size: 400% 400%;
 }
 
 .container{
@@ -31,7 +33,7 @@
 }
 
 .movie_title span{
-     color: #e50914;
+     color: #c20615;
     text-transform: capitalize;
 }
 
