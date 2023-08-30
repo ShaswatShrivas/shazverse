@@ -20,11 +20,18 @@ const Footer = () => {
                             <span className={footerStyles.logo_name}>Shazverse</span>
                         </div>
                         <div className={footerStyles[`media-icons`]}>
-                            <Link href="#"><i > <FaFacebookF/> </i></Link>
-                            <Link href="#"><i > <FaTwitter/> </i> </Link>
-                            <Link href="https://www.instagram.com/shaswat15shrivas01/" target="_blank"><i > <FaInstagram/>  </i></Link>
-                            <Link href="https://in.linkedin.com/in/shaswat-shrivas-493992236?trk=profile-badge" target="_blank"><i > <FaLinkedinIn /> </i></Link>
-                            <Link href="#"><i > <FaYoutube />  </i></Link>
+                            <Link href="https://www.instagram.com/shaswat15shrivas01/" target="_blank">
+                                <i> <FaInstagram /> </i>
+                            </Link>
+                            <Link href="https://in.linkedin.com/in/shaswat-shrivas-493992236?trk=profile-badge" target="_blank">
+                                <i> <FaLinkedinIn /> </i>
+                            </Link>
+                            <Link href="https://www.instagram.com/mr.shri_1115/" target="_blank">
+                                <i> <FaInstagram /> </i> 2
+                            </Link>
+                            <Link href="https://www.linkedin.com/in/shridhar-shrivas-754b20236/" target="_blank">
+                                <i> <FaLinkedinIn /> </i> 2
+                            </Link>
                         </div>
                     </div>
                     <div className={footerStyles['link-boxes']}>
@@ -38,9 +45,9 @@ const Footer = () => {
 
                         <ul className={footerStyles.box}>
                             <li className={footerStyles.link_name}>Account</li>
-                            <li><a href="https://www.instagram.com/shaswat15shrivas01/" target="_blank">Profile</a></li>
-                            <li><a href="https://in.linkedin.com/in/shaswat-shrivas-493992236?trk=profile-badge" target="_blank">My account</a></li>
-                            <li><a href="#">Prefrences</a></li>
+                            <li><a href="/about">Profile</a></li>
+                            <li><a href="/">My account</a></li>
+                            <li><a href="/movie">Prefrences</a></li>
                         </ul>
 
                         <ul className={footerStyles.box}>
